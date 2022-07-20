@@ -1,7 +1,10 @@
 import React from "react";
 
-const Form = () =>{
-    return(
-        <h1>Sign Up here</h1>
-    )
-}
+const Form = () => {
+  return (
+    <form>
+      <h1>Sign Up</h1>
+
+    </form>
+  );
+};
