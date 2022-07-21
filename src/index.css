@@ -15,7 +15,7 @@ code {
 .card {
   background-color: rgb(87 37 110);
   min-height: 50vh;
-  width: 400px;
+  width: 500px;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
   padding: 3rem;
@@ -76,4 +76,13 @@ h1 {
   border-color: rgb(8, 8, 121);
   background: rgb(6, 6, 79);
   box-shadow: inset 0 0 0 1px rgb(139, 79, 138);
+}
+label {
+  color: rgb(173, 127, 193);
+}
+.labels{
+  display: flex;
+  align-items: center;
+ 
+  
 }

@@ -7,8 +7,9 @@ const Inputfield = (props) => {
       <input
         type={props.type.type}
         placeholder={"Enter " + props.type.label}
-      ></input>
+      />
     </div>
+    
   );
 };
 export default Inputfield;
