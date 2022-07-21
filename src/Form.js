@@ -14,16 +14,27 @@ const Form = () => {
         <label className="remember">Remember me</label>
       </div>
       <div className="labels">
-      <i class="fa fa-envelope" style={{paddingRight:"5px"}}></i>
+        <i class="fa fa-envelope" style={{ paddingRight: "5px" }}></i>
         <label>Email </label>
-        <input type="email" style={{marginLeft:"10px"}} placeholder="Enter your email" />
-      <i class="fa fa-envelope" style={{paddingRight:"5px"}}></i>
-        
-        <label style={{marginLeft:"10px"}}>Phone  </label>
-        <input type="number" style={{marginLeft:"10px"}} placeholder="Enter your phone number" />
+        <input
+          type="email"
+          style={{ marginLeft: "10px" }}
+          placeholder="Enter your email"
+        />
+        <i
+          class="fa fa-phone"
+          style={{ paddingRight: "5px", paddingLeft: "5px" }}
+        ></i>
+
+        <label style={{ marginLeft: "10px" }}>Phone </label>
+        <input
+          type="number"
+          style={{ marginLeft: "10px" }}
+          placeholder="Enter your phone number"
+        />
       </div>
       <div>
-      <i icon="fa fa-location" />
+        <i icon="fa fa-location" />
         <select>
           <option>Gujranwala</option>
           <option>Lahore</option>
