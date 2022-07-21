@@ -1,16 +1,17 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
 .card {
   background-color: rgb(87 37 110);
   min-height: 50vh;
@@ -18,4 +19,61 @@ code {
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
   padding: 3rem;
+}
+.container {
+  background-color: rgb(122, 69, 147);
+  /* background-color: rgb(121, 26, 26); */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-field {
+  color: rgb(173, 127, 193);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+input {
+  /* background-color: rgb(142, 56, 56); */
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+
+.form {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+button {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid gray;
+  background-color: rgb(122, 69, 147);
+}
+button:hover {
+  /* background-color: rgba(238, 109, 109, 0.3); */
+  background-color: rgba(0, 0, 0, 0.1);
+  color: white;
+}
+h1 {
+  color: rgb(173, 127, 193);
+}
+.remember {
+  color: rgb(173, 127, 193);
+}
+
+[type="checkbox"] {
+  opacity: 1;
+}
+
+[type="checkbox"]:checked {
+  border-color: rgb(8, 8, 121);
+  background: rgb(6, 6, 79);
+  box-shadow: inset 0 0 0 1px rgb(139, 79, 138);
 }
