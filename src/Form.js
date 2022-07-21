@@ -34,7 +34,6 @@ const Form = () => {
         />
       </div>
       <div>
-        <i icon="fa fa-location" />
         <select>
           <option>Gujranwala</option>
           <option>Lahore</option>
