@@ -24,8 +24,11 @@ const Form = () => {
           placeholder="Enter your phone number"
         />
       </div>
-      <div>
-        <select>
+      <div className="city">
+      <div><label>City</label></div>
+        
+        <select className="city-list">
+          <option>Select</option>
           <option>Gujranwala</option>
           <option>Lahore</option>
           <option>Karachi</option>

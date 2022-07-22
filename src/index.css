@@ -84,3 +84,15 @@ label {
   display: flex;
   align-items: center;
 }
+.city-list {
+  background-color: rgb(173, 127, 193);
+  width: 100px;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.city{
+  display: flex;
+  gap: 0.5rem;
+}
