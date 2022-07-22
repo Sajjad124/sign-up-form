@@ -9,23 +9,14 @@ const Form = () => {
       {types.map((type) => (
         <Inputfield type={type} />
       ))}
-      <div>
-        <input type="checkbox" />
-        <label className="remember">Remember me</label>
-      </div>
+
       <div className="labels">
-        <i class="fa fa-envelope" style={{ paddingRight: "5px" }}></i>
         <label>Email </label>
         <input
           type="email"
           style={{ marginLeft: "10px" }}
           placeholder="Enter your email"
         />
-        <i
-          class="fa fa-phone"
-          style={{ paddingRight: "5px", paddingLeft: "5px" }}
-        ></i>
-
         <label style={{ marginLeft: "10px" }}>Phone </label>
         <input
           type="number"
@@ -43,6 +34,10 @@ const Form = () => {
           <option>Multan</option>
           <option>Sarghoda</option>
         </select>
+      </div>
+      <div>
+        <input type="checkbox" />
+        <label className="remember">Remember me</label>
       </div>
       <button>login</button>
     </form>

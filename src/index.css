@@ -18,7 +18,7 @@ code {
   width: 500px;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
-  padding: 3rem;
+  padding: 1rem;
 }
 .container {
   background-color: rgb(122, 69, 147);
@@ -80,9 +80,7 @@ h1 {
 label {
   color: rgb(173, 127, 193);
 }
-.labels{
+.labels {
   display: flex;
   align-items: center;
- 
-  
 }
