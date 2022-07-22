@@ -13,17 +13,23 @@ code {
 }
 
 .card {
+  display: flex;
+  gap: 2rem;
   background-color: rgb(87 37 110);
-  min-height: 50vh;
-  width: 500px;
+  max-height: 80vh;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
   padding: 1rem;
 }
+.image {
+  width: 20rem;
+  flex: 1;
+}
 .container {
+  padding: 1rem;
   background-color: rgb(122, 69, 147);
   /* background-color: rgb(121, 26, 26); */
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -92,7 +98,7 @@ label {
   align-items: center;
   border-radius: 5px;
 }
-.city{
+.city {
   display: flex;
   gap: 0.5rem;
 }
