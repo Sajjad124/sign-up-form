@@ -5,7 +5,7 @@ import { types } from "./types";
 const Form = () => {
   return (
     <form className="form">
-      <h1 style={{ textAlign: "center" }}>Sign Up</h1>
+      <h1 style={{ textAlign: "center" }}>Sign Up here</h1>
       {types.map((type) => (
         <Inputfield type={type} />
       ))}
