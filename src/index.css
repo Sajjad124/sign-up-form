@@ -15,19 +15,23 @@ code {
 .card {
   display: flex;
   gap: 2rem;
-  background-color: rgb(87 37 110);
-  max-height: 80vh;
+  background-color: rgb(50 0 3);
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
   padding: 1rem;
 }
-.image {
-  width: 20rem;
-  flex: 1;
+.img-container {
+  width: 25rem;
+  border-radius: 10px;
+  background-image: url("./side2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 .container {
   padding: 1rem;
-  background-color: rgb(122, 69, 147);
+  background-color: rgb(73 1 6);
   /* background-color: rgb(121, 26, 26); */
   min-height: 100vh;
   display: flex;
@@ -35,7 +39,7 @@ code {
   align-items: center;
 }
 .input-field {
-  color: rgb(173, 127, 193);
+  color: #fff;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -55,12 +59,12 @@ input {
   flex-direction: column;
 }
 button {
-  color: rgb(0, 0, 0);
+  color: #fff;
   font-size: 15px;
   padding: 0.5rem;
   border-radius: 5px;
-  border: 1px solid gray;
-  background-color: rgb(122, 69, 147);
+  border: 1px solid rgb(66 3 7);
+  background-color: rgb(75 17 17);
 }
 button:hover {
   /* background-color: rgba(238, 109, 109, 0.3); */
@@ -68,10 +72,10 @@ button:hover {
   color: white;
 }
 h1 {
-  color: rgb(173, 127, 193);
+  color: #fff;
 }
 .remember {
-  color: rgb(173, 127, 193);
+  color: #fff;
 }
 
 [type="checkbox"] {
@@ -84,14 +88,14 @@ h1 {
   box-shadow: inset 0 0 0 1px rgb(139, 79, 138);
 }
 label {
-  color: rgb(173, 127, 193);
+  color: #fff;
 }
 .labels {
   display: flex;
   align-items: center;
 }
 .city-list {
-  background-color: rgb(173, 127, 193);
+  background-color: #fff;
   width: 100px;
   padding: 5px;
   justify-content: center;
@@ -101,4 +105,7 @@ label {
 .city {
   display: flex;
   gap: 0.5rem;
+}
+.form {
+  min-height: 80vh;
 }

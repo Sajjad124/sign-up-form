@@ -1,11 +1,10 @@
 import React from "react";
 import Form from "./Form";
-import sideimg from "./side-image.jpg";
 
 const Card = () => {
   return (
     <div className="card">
-      <img src={sideimg} alt="" className="image" />
+      <div className="img-container"></div>
       <Form />
     </div>
   );
